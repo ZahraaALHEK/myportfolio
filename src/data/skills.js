@@ -2,7 +2,7 @@
 const skills = [
   {
     category: "Backend",
-    items: ["Node.js", "ASP.NET MVC (C#)","Express",  "REST APIs"],
+    items: ["Node.js", "ASP.NET MVC (C#)","Express",  "REST APIs", "Laravel"],
   },
   {
     category: "Frontend",

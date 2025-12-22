@@ -13,7 +13,7 @@ const experiences = [
   },
  {
     id:2,
-    name:"Full Stack Developer",
+    name:"Web Development Intern",
     companyName: "Techtalks Community",
     date: "november 2025 – present",
     skills: ["Build back-end APIs using Laravel",
