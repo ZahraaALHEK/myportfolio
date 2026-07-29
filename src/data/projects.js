@@ -1,10 +1,11 @@
+import discussionRoomImg from "../assets/Captxure.PNG";
 const projects = [
   {
     id: 1,
     name: "DiscussionRooms",
     description: "Built complete website using Node.js, Express, MongoDB, Mongoose and React for Real-time discussions with authentication, authorization, and real-time updates using Socket.io .",
     skills: [ "Node.js", "Express","MongoDb","Mongoose","REST APIs","React","Socket.io","JWT","bcrypt"],
-    images: ["../src/assets/Captxure.PNG"], 
+    images: [discussionRoomImg], 
     link: "https://discussion-room-ten.vercel.app",
   },
   {
