@@ -1,20 +1,28 @@
 const projects = [
   {
     id: 1,
+    name: "DiscussionRooms",
+    description: "Built complete website using Node.js, Express, MongoDB, Mongoose and React for CRUD operations with authentication and upload files and verification email.",
+    skills: [ "Node.js", "Express","MongoDb","Mongoose","REST APIs","React","Socket.io","JWT","bcrypt"],
+    images: ["/src/assets/Captxure.PNG"], 
+    link: "https://discussion-room-ten.vercel.app",
+  },
+  {
+    id: 2,
     name: "RESTful API Development",
     description: "Built complete APIs using Node.js, Express, MongoDB, and Mongoose for CRUD operations with authentication and upload files and verification email.",
     skills: [ "Node.js", "Express","MongoDb","Mongoose","REST APIs"],
     images: ["/path/to/image.png"], 
     link: "https://github.com/ZahraaALHEK/blog-RESTful-APIs.git",
   },{
-    id:2,
+    id: 3,
     name:"Pharmacy API",
     description:"Backend service that allows searching for the nearest pharmacies by medicine name. Built with Laravel and PostgreSQL, using geolocation queries to return nearby results efficiently",
     skills: [ "Laravel", "PostgreSQL","REST APIs"],
     images: ["/path/to/image.png"], 
     link: "https://github.com/ZahraaALHEK/pharmacy-medicine-discovery-backend.git",
   },{
-    id:3 ,
+    id: 4,
     name:"Rock, Paper, Scissors game" ,
     description:"A simple and interactive Rock, Paper, Scissors game built with React. The player chooses between Rock, Paper, or Scissors, and the computer randomly selects its move. The game then compares both choices and displays the winner instantly.",
     skills: [ "React", "JavaScript"],
@@ -22,7 +30,7 @@ const projects = [
     link: " https://zahraaalhek.github.io/game1/",
   },
     {
-    id: 4,
+    id: 5,
     name: "Dynamic Website (PHP + MySQL)",
     description: "Developed a full-featured website using PHP and MySQL, including user authentication and database interaction.",
     skills: [ "PHP", "MySQL"],
@@ -30,7 +38,7 @@ const projects = [
     link: "https://github.com/ZahraaALHEK/boutique.git",
   },
     {
-    id: 5,
+    id: 6,
     name: "school-system",
     description: "java project with design patterns",
     skills: [ "Java", "Design Patterns","singleton pattern","builder pattern","factory pattern"],
