@@ -21,7 +21,7 @@ const projects = [
     name:"Pharmacy API",
     description:"Backend service that allows searching for the nearest pharmacies by medicine name. Built with Laravel and PostgreSQL, using geolocation queries to return nearby results efficiently",
     skills: [ "Laravel", "PostgreSQL","REST APIs"],
-    images: ["/path/to/image.png"], 
+    images: [apiImg], 
     link: "https://github.com/ZahraaALHEK/pharmacyDiscoveryBackend.git",
   },{
     id: 4,
