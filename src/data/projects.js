@@ -1,5 +1,6 @@
 import discussionRoomImg from "../assets/Captxure.PNG";
 import apiImg from "../assets/Captfure.png";
+import gameIamg from "../assets/Caffpture.png";
 const projects = [
   {
     id: 1,
@@ -28,7 +29,7 @@ const projects = [
     name:"Rock, Paper, Scissors game" ,
     description:"A simple and interactive Rock, Paper, Scissors game built with React. The player chooses between Rock, Paper, or Scissors, and the computer randomly selects its move. The game then compares both choices and displays the winner instantly.",
     skills: [ "React", "JavaScript"],
-    images: ["/path/to/image.png"], 
+    images: [gameIamg], 
     link: " https://zahraaalhek.github.io/game1/",
   },
     {
