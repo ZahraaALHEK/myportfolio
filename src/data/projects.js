@@ -1,4 +1,5 @@
 import discussionRoomImg from "../assets/Captxure.PNG";
+import apiImg from "../assets/Captfure.png";
 const projects = [
   {
     id: 1,
@@ -13,7 +14,7 @@ const projects = [
     name: "RESTful API Development",
     description: "Built complete APIs using Node.js, Express, MongoDB, and Mongoose for CRUD operations with authentication and upload files and verification email.",
     skills: [ "Node.js", "Express","MongoDb","Mongoose","REST APIs"],
-    images: ["/path/to/image.png"], 
+    images: [apiImg], 
     link: "https://github.com/ZahraaALHEK/blog-RESTful-APIs.git",
   },{
     id: 3,
@@ -21,7 +22,7 @@ const projects = [
     description:"Backend service that allows searching for the nearest pharmacies by medicine name. Built with Laravel and PostgreSQL, using geolocation queries to return nearby results efficiently",
     skills: [ "Laravel", "PostgreSQL","REST APIs"],
     images: ["/path/to/image.png"], 
-    link: "https://github.com/ZahraaALHEK/pharmacy-medicine-discovery-backend.git",
+    link: "https://github.com/ZahraaALHEK/pharmacyDiscoveryBackend.git",
   },{
     id: 4,
     name:"Rock, Paper, Scissors game" ,
